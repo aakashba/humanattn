@@ -11,11 +11,11 @@ def softmax(x, axis=None):
     y = np.exp(x)
     return y / y.sum(axis=axis, keepdims=True)
 
-extradata = pickle.load(open('/nfs/projects/funcom/data/javastmt/q90/dataset_short.pkl', 'rb'))
-graphdata = pickle.load(open('/nfs/projects/funcom/data/javastmt/q90/dataset_graph.pkl', 'rb'))
+extradata = pickle.load(open('/q90/dataset_short.pkl', 'rb'))
+graphdata = pickle.load(open('/q90/dataset_graph.pkl', 'rb'))
 graphtok = extradata['graphtok']
 
-x = pickle.load(open("/nfs/dropbox/bio_predict_viz/biodats_q90_astgnn.pkl","rb"))
+x = pickle.load(open("biodats_q90_astgnn.pkl","rb"))
 
 breadth=15
 
