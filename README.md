@@ -1,5 +1,5 @@
 # Replication package for the paper "Modelling Human Attention from Eye Movements for Neural Source Code Summarization" under review.
-Kindly download the data for replication at 
+Kindly download the data for replication at https://drive.google.com/drive/folders/159L1pnh1kArIgZMNxlWp2Pv2hihgB0Mf?usp=share_link
 
 ## Step 1: Prepare human data
 From the google drive folder, extract humandata.zip and either place the contents at /nfs/projects/humanattn/data/eyesum or change this locaton in train.py inside the humantrain/ directory in this repo
