@@ -1,4 +1,4 @@
-# Replication package for the paper "Towards Modeling Human Attention from Eye Movements for Neural Source Code Summarization" under review.
+# Replication package for the paper "Towards Modeling Human Attention from Eye Movements for Neural Source Code Summarization" accepted at ETRA'23 and Proceeding of ACM HCI (PACMHCI).
 Kindly download the data for replication at https://drive.google.com/drive/folders/159L1pnh1kArIgZMNxlWp2Pv2hihgB0Mf?usp=share_link
 
 ## Step 1: Prepare human data
